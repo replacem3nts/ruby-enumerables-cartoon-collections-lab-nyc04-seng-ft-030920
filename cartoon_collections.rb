@@ -17,8 +17,5 @@ def find_the_cheese(string_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   string_cheese.find do |item|
     if cheese_types.include? item
-      return item
     end
-  end
-  return nil
 end
